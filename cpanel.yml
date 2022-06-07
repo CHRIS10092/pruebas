@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/femavico/public_html/
+    - /bin/rsync  -av public/ $DEPLOYPATH
+    
